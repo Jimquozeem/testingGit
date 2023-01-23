@@ -1,0 +1,125 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.bg1{
+	background-image:linear-gradient(rgba(255, 255, 255, 0.8),rgba(97, 94, 94, 40%),rgba(255,255,255,40%)),url(Images/img_parallax1.jpg);
+	min-height:100vh;
+	background-color:linear-gradient(rgba(255, 255, 255, 0.8),rgba(97, 94, 94, 40%),rgba(255,255,255,40%));
+	width: 100%;
+	/* margin-inline: auto; */
+	background-size: 100%  100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+	/* border: 1px solid black; */
+}
+.scroll{
+	position:absolute;
+	margin:310px 520px;
+	text-align: center;
+    letter-spacing: 5px;
+	width: 255px;
+	height: 15px;
+	padding:25px 25px;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:rgb(66, 64, 64) ;
+}
+
+#cont1{
+min-height:50vh;
+min-width:50vw;
+position: relative;
+/* border: 1px solid black; */
+background-color:rgba(243, 243, 240, 0.904);
+}
+h2{ 
+	position: absolute;
+	top: 70px;
+	left:500px;
+	letter-spacing: 5px;
+	/* border: 1px solid black; */
+}
+#para{
+	padding: 30px;
+	top:135px;
+	line-height: 25px;
+	position: absolute;
+	/* border: 1px solid black; */
+    text-align: justify;
+	font-size: 18px;
+	color: rgb(102, 96, 96);
+	margin-bottom: 0;
+	
+}
+.bg2{
+/* margin-top:50px; */
+min-height:54vh;
+width: 100%;
+/* border: 1px solid rgb(182, 18, 18); */
+position: relative;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+/* background-position: center; */
+background-image:linear-gradient(rgba(15, 14, 14,5%),rgba(255, 255, 255, 5%),rgba(7, 7, 7, 5%)),url('Images/img_parallax2.jpg');;
+background-color:linear-gradient(rgba(5, 5, 5, 0.8),rgba(226, 215, 215, 0.2),rgba(243, 243, 243, 0.1));
+
+}
+
+#less{
+position: absolute;
+letter-spacing: 5px;
+color: white;
+font-size: 30px;
+top:150px;
+left:550px;
+}
+.cont2{
+	position: relative;
+	min-height: 20vh;
+	width: 100%;
+	background-color: black;
+}
+#blackworddiv{
+color: white;
+position: absolute;
+top:60px;
+left:60px;
+font-size:large;
+}
+
+.bg3{
+ 	min-height:54vh;
+    width: 100%;
+	border: 1px solid black;
+	background-image:linear-gradient(rgba(255, 255, 255, 0.8),rgba(97, 94, 94, 40%),rgba(255,255,255,40%)),url(Images/img_parallax3.jpg);
+	background-attachment: fixed;
+	position: relative;
+}
+#scrollUpdiv{
+	position:absolute;
+	top: 170px;
+	left: 550px;
+	letter-spacing: 5px;
+	color: white;
+	font-size: large;
+	font-weight: lighter;
+}
+.cont3{
+	position: relative;
+	min-height: 20vh;
+	width: 100%;
+	background-color: black;
+}
+#blackworddiv2{
+color: white;
+position: absolute;
+top:60px;
+left:60px;
+font-size:large;
+}
